@@ -1,0 +1,17 @@
+{
+    "name": "LDS Scripture Linker",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Replaces any LDS scripture references to a link to that scripture on the LDS website.",
+    "browser_action": {
+	"default_icon": "bom_small_bordered.png"
+    },
+    "background": {
+	"scripts": ["setup.js"]//,
+	//"persistent": false
+    },
+    "permissions": [
+	"tabs",
+	"activeTab"
+    ]
+}
